@@ -1,0 +1,81 @@
+html {
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#title {
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    color: #06828d;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#name-label {
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-image:
+        url("images/registration-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .bg-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.container {
+    /* background: linear-gradient(#bde0fe, #4dcad5); */
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 100px;
+}
+
+.register {
+    background: linear-gradient(#bde0fe, #4dcad5);
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    margin: 30px;
+    width: 550px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    box-shadow: inset 1px 1px 1px white, 1px 1px black, inset -1px -1px 1px grey;
+    transition: background-color 0.5s, border-radius 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+
+.register:hover {
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #8be3eb;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+}
+
+@media(min-width: 300px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .register {
+        width: 200px;
+    }
+}
