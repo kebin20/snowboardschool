@@ -6,6 +6,7 @@ First project, making my own full-fledged snowboard website.
 
 -Also familiarized myself with Github and git; learning the basics of the command line and navigating through directories, as well learning how to create repos, cloning, adding, committing and pushing to the main branch via git and using GitHub desktop
 
+
 I am currently learning JavaScript properly, so I am hoping to add in more functionality to my webpage.
 
 My webpage consists of a:
