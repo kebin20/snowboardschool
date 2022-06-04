@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0">
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
         <a class="navbar-brand" href="#">
             <img src="images/snowboarder.png" width="30" height="30" alt="" loading="lazy">
         </a>
@@ -49,57 +49,71 @@
         </div>
     </nav>
 
-    <div id="container1">
-        <div class="box1">
-            <h2>Why sign up with us?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim itaque nostrum ipsam dolorum quae sunt modi
-                fuga veniam quaerat eveniet, vero aliquid iste ab quibusdam! Voluptatum debitis adipisci optio
-                voluptatem.
-                Neque obcaecati debitis quos pariatur, voluptatem accusamus enim id animi. Aliquid quisquam perferendis
-                quis quasi quo numquam eligendi libero repellendus ipsa. Minus animi ad nesciunt quam repellat. Illo,
-                explicabo modi.</p>
-            <button class="signup" type="button">Sign up!</button>
-        </div>
+    <div class="backgroundContainer">
+        <video id="background" muted autoplay loop>
+            <source src="images/ski_resort.mp4" type="video/mp4">
+        </video>
+    </div>
 
-        <div class="box1">
-            <figure>
-                <img src="images/intro-pricing.jpg" alt="">
-                <figcaption>Gotta get down the basics</figcaption>
-            </figure>
+    <div class="container">
+        <div class="row justify-content-center py-0">
+            <div id="box1" class="col-4">
+                <h2>Why sign up with us?</h2>
+                <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim itaque nostrum ipsam
+                    dolorum
+                    quae sunt modi
+                    fuga veniam quaerat eveniet, vero aliquid iste ab quibusdam! Voluptatum debitis adipisci optio
+                    voluptatem.
+                    Neque obcaecati debitis quos pariatur, voluptatem accusamus enim id animi. Aliquid quisquam
+                    perferendis
+                    quis quasi quo numquam eligendi libero repellendus ipsa. Minus animi ad nesciunt quam repellat.
+                    Illo,
+                    explicabo modi.</p>
+                <button class="signup" type="button">Sign up!</button>
+            </div>
+
+
+            <div class="col-4">
+                <figure>
+                    <img id="welcome-img" src="images/intro-pricing.jpg" alt="">
+                </figure>
+            </div>
         </div>
     </div>
 
-    <div id="container2">
+
+    <div class="container">
         <h2>Our pricing packages</h2>
-        <div class="box2">
-            <figure>
+        <div class="d-flex justify-content-around">
+            <div class="col-3 ml-5">
+
                 <img src="images/beginner.jpg" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div class="box2">
-            <figure>
+                <figcaption>Beginner's Class</figcaption>
+
+            </div>
+            <div class="col-3 ml-5">
+
                 <img src="images/intermediate.jpg" alt="">
-                <figcaption></figcaption>
-            </figure>
-        </div>
-        <div class="box2">
-            <figure>
+                <figcaption>Intermediate Class</figcaption>
+
+            </div>
+            <div class="col-3 ml-5">
+
                 <img src="images/advanced.jpg" alt="">
-                <figcaption></figcaption>
-            </figure>
+                <figcaption>Advanced Class</figcaption>
+
+            </div>
         </div>
     </div>
+
 
     <div id="container3">
-        <figure>
-            <blockquote cite="#">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magni libero reprehenderit dolores
-                    beatae ut sunt optio ex alias. Quasi excepturi necessitatibus inventore dolore ratione, facere dolor
-                    iusto beatae reiciendis!</p>
-            </blockquote>
-            <figcaption><cite></cite></figcaption>
-        </figure>
+
+        <blockquote cite="#">
+            <p><cite><strong>On top of the mountain is where everything makes sense</strong> - By some snowboarder
+            </p>
+        </blockquote>
+
     </div>
 
     <footer>
