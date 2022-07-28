@@ -15,3 +15,4 @@ My webpage consists of a:
 - Registration Page
 - Rentals (WIP)
 - Pricing (WIP)
+- Weather page (WIP)
