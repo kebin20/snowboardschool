@@ -1,11 +1,14 @@
 body {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background: rgba(34, 34, 34, 0.394);
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
     font-size: 120%;
+    color: whitesmoke;
 }
 
 .card {
@@ -52,3 +55,33 @@ button {
 button:hover {
     background: #7c7c7c6b;
 }
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.weather-img {
+    display: flex;
+    align-items: center;
+}
+
+.snow-quality {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+/* .weather.load {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.load:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+} */
