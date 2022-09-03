@@ -5,7 +5,7 @@ let weather = {
             `https://api.openweathermap.org/data/3.0/onecall?q=${city}&@units={metric}&appid=${this.apikey}`
         )
             .then((response) => response.json())
-            .then(({ data }) => console.log(data));
+            .then((data) => this.displayWeather(data));
 
     },
     displayWeather: function (data) {
